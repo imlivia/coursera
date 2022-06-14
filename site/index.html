@@ -2,33 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type='text/css' href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type='text/css' href="./css/style.css">
     <title>Test</title>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        h1{
-            color: brown;
-        }
-        p{
-            width: 50%;
-            border: 2px solid #000000;
-            float: left;
-            padding: 10px;
-        }
-        #p1{
-            background: #00FFFF;
-        }
-        #p2{
-            background: #FF0000;
-        }
-    </style>
+    
 </head>
 <body>
-    <h1>test it's great!</h1>
-    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi qui nam itaque iusto illo aliquid quo quos molestiae, architecto voluptatem voluptatibus adipisci voluptatum, placeat quis perspiciatis explicabo dignissimos rerum nobis!</p>
-    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi qui nam itaque iusto illo aliquid quo quos molestiae, architecto voluptatem voluptatibus adipisci voluptatum, placeat quis perspiciatis explicabo dignissimos rerum nobis!</p>
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">col 1</div>
+            <div class="col-md-4 col-sm-6">col 2</div>
+            <div class="col-md-4 col-sm-6">col 3</div>
+        </div>
+    </div>
+    <script src="js\jquery-3.6.0.js"></script>
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="js\script.js"></script>
 </body>
 </html>
